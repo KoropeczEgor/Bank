@@ -6,6 +6,7 @@ function App() {
     <div className="bg-primary text-white w-full h-full">
       <NavBar />
       <ScrollTop />
+      <div className="container px-5 md:px-10 mx-auto"></div>
     </div>
   );
 }
