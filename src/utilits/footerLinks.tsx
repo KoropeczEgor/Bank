@@ -28,6 +28,44 @@ const footerLinks: FooterLink[] = [
       },
     ],
   },
+  {
+    title: "Communuty",
+    links: [
+      {
+        name: "Help Center",
+        link: "https://github.com/KoropeczEgor",
+      },
+      {
+        name: "Partners",
+        link: "https://github.com/KoropeczEgor",
+      },
+      {
+        name: "Suggestions",
+        link: "https://github.com/KoropeczEgor",
+      },
+      {
+        name: "Blog",
+        link: "https://github.com/KoropeczEgor",
+      },
+      {
+        name: "News letters",
+        link: "https://github.com/KoropeczEgor",
+      },
+    ],
+  },
+  {
+    title: "Partner",
+    links: [
+      {
+        name: "Our Partner",
+        link: "https://github.com/KoropeczEgor",
+      },
+      {
+        name: "Become a Partner",
+        link: "https://github.com/KoropeczEgor",
+      },
+    ],
+  },
 ];
 
 export default footerLinks;
