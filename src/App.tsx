@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Stats from "./components/Stats/Stats";
 import Business from "./components/Businness/Businness";
 import Bill from "./components/Bill/Bill";
+import PaymentMethod from "./components/PaymentMethod/PaymentMethod";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div>
         <Business />
         <Bill />
+        <PaymentMethod />
       </div>
     </div>
   );
