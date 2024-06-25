@@ -2,6 +2,7 @@ import NavBar from "./components/Navbar/NavBar";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Hero from "./components/Hero/Hero";
 import Stats from "./components/Stats/Stats";
+import Business from "./components/Businness/Businness";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Stats number="534" title="Trusted By Company" />
           <Stats number="$110M" title="Transaction" />
         </div>
+        <Business />
       </div>
     </div>
   );
