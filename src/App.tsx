@@ -3,6 +3,7 @@ import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Hero from "./components/Hero/Hero";
 import Stats from "./components/Stats/Stats";
 import Business from "./components/Businness/Businness";
+import Bill from "./components/Bill/Bill";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Stats number="$110M" title="Transaction" />
         </div>
         <Business />
+        <Bill />
       </div>
     </div>
   );
