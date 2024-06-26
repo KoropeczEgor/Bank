@@ -6,6 +6,7 @@ import Business from "./components/Businness/Businness";
 import Bill from "./components/Bill/Bill";
 import PaymentMethod from "./components/PaymentMethod/PaymentMethod";
 import Testimonials from "./components/Testimonials/Testimonials";
+import ServiceCard from "./components/ServiceCard/ServiceCard";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Bill />
         <PaymentMethod />
         <Testimonials />
+        <ServiceCard />
       </div>
     </div>
   );
