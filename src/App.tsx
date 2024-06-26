@@ -7,6 +7,7 @@ import Bill from "./components/Bill/Bill";
 import PaymentMethod from "./components/PaymentMethod/PaymentMethod";
 import Testimonials from "./components/Testimonials/Testimonials";
 import ServiceCard from "./components/ServiceCard/ServiceCard";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <PaymentMethod />
         <Testimonials />
         <ServiceCard />
+        <Footer />
       </div>
     </div>
   );
