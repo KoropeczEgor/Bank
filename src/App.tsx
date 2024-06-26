@@ -5,6 +5,7 @@ import Stats from "./components/Stats/Stats";
 import Business from "./components/Businness/Businness";
 import Bill from "./components/Bill/Bill";
 import PaymentMethod from "./components/PaymentMethod/PaymentMethod";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Business />
         <Bill />
         <PaymentMethod />
+        <Testimonials />
       </div>
     </div>
   );
